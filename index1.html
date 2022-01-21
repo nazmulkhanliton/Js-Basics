@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+        Author: Nazmul Khan Liton
+        Date: January 21, 2022
+        Time: 3.02PM
+        */
+
+      //Print functions
+      alert("Hello Nazmul Khan Liton");
+      document.write("I Love Bangladesh");
+      console.log("Hello Khan");
+      //console.log("Hello Khan");
+
+      //Data Type
+      var num = 20;
+      console.log(typeof num);
+
+      //Number to String
+      num = toString(num);
+      console.log(typeof num);
+      console.log(num);
+
+      //String to Integer
+      num = parseInt(num);
+      //num = parseFloat(typeof(num));
+      console.log(typeof num);
+
+      //Input from user
+      var text = prompt("Enter Your Name: ");
+      document.write("Number of character " + text.length);
+
+      //Library function for string
+      var text = "Bangladesh";
+      document.write(text.charAt(2)); // output = n
+      text.toUpperCase();
+      document.write(text); //BANGLADESH
+
+      var text1 = "Bangladesh";
+      var text2 = " is a beautiful country";
+      document.write(text1.concat(text2));
+      document.write(text1.slice(0, 2)); // Ba
+
+      //Function
+      function sqaure() {}
+
+      // IIFEs (Immediately Invokeable Function Expressions)
+      //(), {}, [], <>
+      (function display() {
+        console.log("Hello");
+      })();
+    </script>
+  </body>
+</html>
