@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Array in JS
+      var names = new Array(5);
+      names[0] = "khan";
+      names[1] = "liton";
+      names[3] = "nazmul";
+      names.push("UIU");
+      names.push("CSE");
+      for (var i = 0; i < 7; i++) {
+        document.writeln(names[i]);
+      }
+
+      //On other side
+      var id = [01, 02, 03, 04, 05, 07];
+      id.push(30);
+      id.pop();
+      for (var i = 0; i < 7; i++) {
+        document.writeln(id[i]);
+      }
+
+      //Array related methods
+      var studentsName = ["Liton", "Sajib", "Akash", "karim", "siam"];
+      console.log(studentsName);
+      studentsName.shift(); // shift opposite of pop
+      console.log("After shift ::" + studentsName);
+      studentsName.unshift("sakib"); //unshift opposite of push
+      console.log("After unshift:: " + studentsName);
+
+      console.log("After sort:: " + studentsName.sort());
+      console.log("The array is:: " + studentsName);
+      console.log("After reverse:: " + studentsName.reverse());
+    </script>
+  </body>
+</html>
