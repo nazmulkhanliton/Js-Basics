@@ -1,0 +1,9 @@
+console.log(Math.sqrt(25)); //output= 5
+console.log(Math.abs(-5)); //output= 5
+console.log(Math.sin(90)); //output= 5
+console.log(Math.pow(2, 5)); //output= 32
+console.log(Math.floor(2.4)); //output= 2
+console.log(Math.ceil(2.1)); //output= 3
+console.log(Math.round(3.5)); //output= 4
+console.log(Math.max(2, 3, -3)); //output= 3
+console.log(Math.random()); //output= 0 - .9999
